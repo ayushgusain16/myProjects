@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPotfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2>Ayush Gusain</h2>
+            <ul>
+                <li id="two"><a href="#about-me">About Me</a></li>
+                <li id="three"><a href="#projects">Projects</a></li>
+                <li id="four"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside>
+                <img src="ayush.jpeg" alt="Ayush Gusain">
+                <div class="aboutme">Hello I'm Ayush Gusain, a passionate web developer.</div>
+            <h3>Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>FastAPI</li>
+                <li>SQL</li>
+                <li>Postman</li>
+                <li>Swagger</li>
+                <li>GIT</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </aside>
+
+    <main>
+        <section>
+        <h3 id="about-me">About Me</h3>
+        <p>I am a Python Backend Developer with 1 year of experience at Hinnts, where I specialize in building scalable APIs and backend services. I focus on writing clean, efficient code and delivering robust solutions aligned with business needs.</p>
+        </section>
+        <section>
+            <h3 id="projects">Projects</h3>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Tech Stack</th>
+                </tr>
+                <tr>
+                    <td>Portfolio Site</td>
+                    <td>Personal Website to showcase my work</td>
+                    <td>HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>Todo App</td>
+                    <td>Simple task management app</td>
+                    <td>Python, FastApi, Sqlite, Pytest, HTML, CSS, JS</td>
+            </table>
+        </section>
+        <section>
+            <iframe class="iframe" src="https://www.youtube.com/embed/-MTSQjw5DrM"></iframe>
+        </section>
+        <section>
+            <h3 id="contact">Contact Me</h3>
+            <form>
+                <div class="info">
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+                </div>
+
+                <strong>Contact Type:</strong><br>
+                <input type="radio" id="personal" name="contactType" value="Personal">
+                <label for="personal">Personal</label><br>
+
+                <input type="radio" id="business" name="contactType" value="Business">
+                <label for="business">Business</label><br><br>   
+                
+                <strong>Skills Interested:</strong><br>
+
+                <input type="checkbox" id="python" name="skills" value="Python">
+                <label for="python">Python</label><br>
+
+                <input type="checkbox" id="fastapi" name="skills" value="FastAPI">
+                <label for="fastapi">FastAPI</label><br>
+
+                <input type="checkbox" id="sql" name="skills" value="SQL">
+                <label for="sql">SQL</label><br>
+
+                <input type="checkbox" id="postman" name="skills" value="Postman">
+                <label for="postman">Postman</label><br>
+
+                <input type="checkbox" id="git" name="skills" value="GIT">
+                <label for="git">GIT</label><br>
+
+                <input type="checkbox" id="html" name="skills" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="checkbox" id="css" name="skills" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="checkbox" id="js" name="skills" value="JavaScript">
+                <label for="js">JavaScript</label><br><br>
+
+                <button class="button" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    </div>
+
+    <footer>
+        &copy 2025 Ayush Gusain | <a href="https://www.linkedin.com/in/ayushgusain16/">LinkedIn</a> | <a href="https://github.com/ayushgusain16">GitHub</a>
+    </footer>
+
+</body>
+</html>
